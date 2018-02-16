@@ -1,0 +1,97 @@
+p {
+    height: 200px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    float:right;
+    margin-right: 20px;
+}
+
+#csshtml {
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 0 10px;   
+}
+
+#jedan {
+    margin: 0 auto;
+    background-color: rgb(195, 29, 0);
+    width: 100%;
+    overflow: auto;
+}
+
+#dva {
+    border: white solid 1px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.crvena {
+background-color: rgb(195, 29, 0);
+margin: 10px;
+}
+
+.plava {
+    background-color: rgb(35, 66, 92)
+}
+
+.zuta {
+    background-color: rgb(253, 186, 60)
+}
+
+.zelena {
+    background-color: rgb(103, 173, 71)
+
+}
+
+.paragraf{
+    float: left;
+    display: inline-block;
+    margin: 10px;
+}
+.linkovi{
+    background: #FFBE00;
+    float:right;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+    
+}
+.paragraf2{
+    float: left;
+    clear: left;
+    display: inline-block;
+    margin: 10px;
+}
+.futer{
+    width: 100%;
+    background: #2D3E50;
+    height: 70px;
+    
+    
+    
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.lista{
+    float: left;
+}

@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://cdn.allwallpaper.in/wallpapers/1366x768/6894/cool-vintage-backgrounds-1366x768-wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    
+    text-shadow: 4px 2px 9px rgba(255, 225, 150, 1);
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    width: 100%;
+    overflow: auto;
+    -webkit-box-shadow: 24px 22px 86px -13px rgba(255,204,0,1);
+    -moz-box-shadow: 24px 22px 86px -13px rgba(255,204,0,1);
+    box-shadow: 24px 22px 86px -13px rgba(255,204,0,1);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 100px;
+    display: inline-block;
+    float: left;
+    border: solid 2px black;
+    -webkit-box-shadow: 18px 7px 97px -13px rgba(255,204,0,1);
+    -moz-box-shadow: 18px 7px 97px -13px rgba(255,204,0,1);
+    box-shadow: 18px 7px 97px -13px rgba(255,204,0,1);
+}
+
+h1 {
+    display: inline-block;
+    font-size: 60px;
+    margin: 0px;
+    clear: right;
+}
+
+header p {
+    font-size: 20px;
+}
+
+section {
+    width: 45%;
+    float: left;
+    margin: 5px;
+    padding-top: 0px;
+    margin-top: 69px;
+}
+
+.pesme {
+    border-left: 2px solid rgb(255, 217, 0);
+    text-align: center;
+}
+
+.slobodan {
+    margin-top: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+iframe {
+    border: 2px solid rgba(255, 208, 0, 0.753);
+}
