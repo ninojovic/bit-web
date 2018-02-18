@@ -181,7 +181,6 @@ article p {
 .connect img {
     display: inline-block;
     width: 5%;
-    margin: 0 3%;
 }
 
 .address {
@@ -327,3 +326,68 @@ footer li {
         width: 20%;
     }
 }
+
+@media (min-width: 1200px) {
+
+    .welcome, .weMake, section img {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+
+    section img {
+        margin: 0 3%;
+    }
+
+    .testemonials {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .firstArticle {
+        margin: 0;
+    }
+
+    .secondArticle {
+        margin: 0 3%;
+    }
+
+    article {
+        width: 31%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+
+    section {
+        width: 90%;
+        margin-top: 2%;
+    }
+
+    .house {
+        margin: 0;
+    }
+
+    .contact, .connect, .address, .house {
+        display: inline-block;
+        height: 200px;
+        float: left;
+        width: 25%;
+        padding-top: 4%;
+    }
+
+    .form {
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+    input {
+        padding: 2%;
+        width: 31%;
+    }
+}
+    
