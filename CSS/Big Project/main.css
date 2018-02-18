@@ -24,6 +24,7 @@ header {
 
 header h1 {
     color: whitesmoke;
+    font-size: 170%;
 }
 
 header button {
@@ -117,12 +118,13 @@ article img {
     padding: 0.5%;
     margin: 3% 2%;
     border-radius: 50%;
-    width: 20%;
+    max-width: 95px;
     display: inline-block;
 }
 
 article h3 {
     color: black;
+    font-size: 16px;
     display: inline-block;
     vertical-align: top;
     margin: 7% 0 0 2%;
@@ -196,8 +198,6 @@ article p {
 
 .house {
     background: rgb(129, 195, 245);
-    height: 100%;
-    padding: 10% 15%;
     max-height: 300px;
 }
 
@@ -245,4 +245,85 @@ footer a {
 footer li {
     display: inline-block;
     margin: 0 2% 8% 0;
+}
+
+@media (min-width: 768px) {
+
+    header {
+        padding: 20% 8%;
+    }
+
+    nav h1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 3%;
+        text-align: left;
+        color: white;
+        width: 30%;
+        font-size: 150%;
+    }
+
+    nav span {
+        border-color: white;
+    }
+
+    nav ul {
+        position: absolute;
+        width: 50%;
+        margin: 3%;
+        text-align: right;
+        top: 0;
+        right: 0;
+        color: white;
+        font-weight: bold;
+        background: none;
+        font-size: 80%;
+    }
+
+    nav li {
+        display: inline-block;
+        width: auto;
+        margin: 0 2%;
+    }
+
+    .welcome {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    section img {
+        width: 48%;
+        display: inline-block;
+    }
+
+    article {
+        width: 47%;
+        display: inline-block;
+    }
+
+    .firstArticle {
+        margin-right: 5%;
+    }
+
+    .contact, .connect, .address, .house {
+        display: inline-block;
+        height: 200px;
+        float: left;
+        width: 50%;
+    }
+
+    input {
+        width: 31%;
+        display: inline-block;
+
+    }
+    input[name="email"] {
+        margin: 0 2%;
+    }
+
+    input[type="submit"] {
+        width: 20%;
+    }
 }
