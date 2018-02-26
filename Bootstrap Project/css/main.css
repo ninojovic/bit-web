@@ -6,19 +6,62 @@
 .green {
   background-color: #18bc9c; }
 
+hr {
+  height: 2px;
+  margin: 20px auto;
+  width: 30%;
+  background: white; }
+
 .profil {
   padding: 10px; }
+  .profil img {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 200px; }
+  .profil h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%;
+    color: white; }
+  .profil h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem; }
 
-.profil img {
-  display: block;
-  margin: 0 auto;
-  width: 150px; }
-
-.profil h1 {
-  font-size: 1.6rem;
-  text-align: center;
-  margin-top: 3%;
-  color: white; }
+.contact {
+  margin-bottom: 50px; }
+  .contact h1 {
+    margin-top: 50px;
+    color: #212529;
+    font-weight: bold;
+    text-align: center; }
+  .contact hr {
+    height: 2px;
+    margin: 20px auto;
+    width: 30%;
+    background: #212529; }
+  .contact input, .contact textarea {
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px 0; }
+  .contact textarea {
+    resize: none; }
+  .contact input[type="submit"], .contact textarea[type="submit"] {
+    background: #18bc9c;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    padding: 5px;
+    width: 20%; }
 
 .custom-navbar {
   background-color: #2c3e50; }
@@ -27,12 +70,78 @@
   color: white; }
 
 .navbar-light .navbar-toggler, .navbar-toggler-icon {
-  border-color: white; }
+  background: #18bc9c; }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); }
+  background: #18bc9c;
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 37 37' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); }
 
 .navbar-light .navbar-toggler {
   color: white; }
+
+.headlineText {
+  margin-top: 50px;
+  color: #212529;
+  font-weight: bold;
+  text-align: center; }
+
+.profile {
+  margin-bottom: 50px; }
+  .profile img {
+    width: 100%;
+    margin: 10px auto; }
+  .profile hr {
+    height: 2px;
+    margin: 20px auto;
+    width: 30%;
+    background: #212529; }
+  @media (min-width: 768px) {
+    .profile img {
+      width: 48%;
+      display: inline-block;
+      margin: 7px 5px; } }
+
+.about {
+  margin: 50px auto;
+  color: white; }
+  .about h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%;
+    color: white; }
+  .about button {
+    background: none;
+    color: white;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto; }
+
+.footer {
+  background: #2c3e50;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  .footer h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+  .footer h3 {
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .footer img {
+    border-radius: 50%;
+    width: 50px;
+    padding: 1%;
+    border: white solid 1px; }
+  @media (min-width: 768px) {
+    .footer .footerSection {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */

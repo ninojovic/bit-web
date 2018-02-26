@@ -1,0 +1,42 @@
+.contact {
+    margin-bottom: 50px;
+    h1 {
+        margin-top: 50px;
+        color: #212529;
+        font-weight: bold;
+        text-align: center;
+    }
+        
+    hr {
+        height: 2px;
+        margin: 20px auto;
+        width: 30%;
+        background: #212529;
+    }
+        
+    input {
+        border: none;
+        border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+        display: block;
+        width: 100%;
+        font-size: 30px;
+        padding: 20px 0;
+    }
+        
+    textarea {
+        @extend input;
+        resize: none;
+    } 
+        
+    input[type="submit"] {
+        background: $greenish;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 3px;
+        border: none;
+        margin-top: 20px;
+        padding: 5px;
+        width: 20%;
+    }
+}

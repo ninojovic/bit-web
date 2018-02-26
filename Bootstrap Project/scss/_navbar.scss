@@ -1,0 +1,20 @@
+.custom-navbar{
+    background-color: $blueish;
+}
+
+.navbar-light .navbar-brand{
+    color:white ;
+}
+
+.navbar-light .navbar-toggler , .navbar-toggler-icon{
+    background: $greenish;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background: $greenish;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 37 37' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>")
+}
+
+.navbar-light .navbar-toggler{
+    color:white;
+}

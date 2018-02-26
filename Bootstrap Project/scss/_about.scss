@@ -1,0 +1,21 @@
+.about {
+    margin: 50px auto;
+    color: white;
+    
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3%;
+        color:white;
+    }
+    button {
+        background: none;
+        color: white;
+        border: 1px white solid;
+        padding: 5px;
+        border-radius: 3px;
+        display: block;
+        margin: 0 auto;
+    }
+}
