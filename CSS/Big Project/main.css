@@ -294,6 +294,8 @@ footer li {
 
     section img {
         width: 48%;
+        padding-bottom: 40px;
+        padding-left: 30px;
         display: inline-block;
     }
 
@@ -335,6 +337,9 @@ footer li {
         vertical-align: top;
     }
 
+    header h1 {
+        font-size: 40px;
+    }
     section img {
         margin: 0 3%;
     }

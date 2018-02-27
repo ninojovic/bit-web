@@ -24,10 +24,17 @@
         border: white solid 1px;
     }
     @media (min-width: 768px){
+        text-align: center;
         .footerSection {
             display: inline-block;
             vertical-align: top;
             margin: 0;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
         }
     }
 }
