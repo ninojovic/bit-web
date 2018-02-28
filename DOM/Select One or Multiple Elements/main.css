@@ -1,0 +1,7 @@
+.background {
+    background: blue;
+}
+.backgroundUpper {
+    background: red;
+    text-transform: uppercase;
+}
