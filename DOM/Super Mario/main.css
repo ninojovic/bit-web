@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+background {
+    background-image: url("./images/bg.jpg");
+    display: block;
+    background-color: rgb(2, 18, 254);
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+    bottom: 85px;
+    left: 40%;
+}
+
+img[alt="mario"]{
+    width: 150px;
+    display: block;
+}
+
+img[alt="mario_run"]{
+    width: 130px;
+    display: none;
+}
+
+img[alt="mario_jump"]{
+    width: 160px;
+    display: none;
+}
+
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
