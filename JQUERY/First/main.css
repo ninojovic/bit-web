@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom1 {
+    border-bottom: 1px solid black;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.active {
+    color: blue;
+
+}
+
+.bg {
+    background-color: brown;
+}
