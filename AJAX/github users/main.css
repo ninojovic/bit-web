@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background: whitesmoke;
+    height: 900px;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+}
+
+input {
+    width: 20%;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-image: url("https://cdn.shopify.com/s/files/1/0171/7374/t/32/assets/icon-search.svg?6051862785843898448");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+card {
+    display: inline-block;
+    width: 25%;
+    margin: 0 20px;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+    margin: 5px;
+    margin-top: 35px;
+}
