@@ -6,7 +6,6 @@ function searchUsers(url = "") {
     XHRrequest.onload = function () {
         if (XHRrequest.status >= 200 && XHRrequest.status < 400) {
             const users = JSON.parse(this.responseText).items;
-            console.log(users)
             $("main").children().remove();
             for (let i = 0; i < users.length; i++) {
                 const currUser = users[i];
